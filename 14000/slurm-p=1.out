@@ -1,0 +1,18 @@
+# Heat 2D (serial): grid: rows 14000, cols 14000
+# niters 243, total time 1031.079928
+# Heat 2D (serial): grid: rows 14000, cols 14000
+# niters 243, total time 1033.944967
+# Heat 2D (serial): grid: rows 14000, cols 14000
+# niters 243, total time 1034.116726
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[57735,0],0] on node cn5
+  Remote daemon: [[57735,0],2] on node cn7
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
+slurmstepd: error: *** JOB 12894 ON cn5 CANCELLED AT 2021-12-05T18:16:52 DUE TO TIME LIMIT ***

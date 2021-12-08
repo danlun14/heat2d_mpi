@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#SBATCH --nodes=8 --ntasks-per-node=1
+#SBATCH --job-name=MPI_Heat2D
+
+cd $SLURM_SUBMIT_DIR
+
+mpiexec ./main 10000 10000
