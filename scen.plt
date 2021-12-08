@@ -15,6 +15,6 @@ set ytics 8
 set xrange [8:64]
 set yrange [1:64]
 
-plot '10000.txt' using 1:2 with linespoints lw 1 lt rgb 'blue' title 'heat 2d (n = 10000)', \
- '14000.txt' using 1:2 with linespoints lw 1 lt rgb 'red' title 'heat 2d (n = 14000)', \
+plot '10000.txt' using 1:2 with linespoints lw 1 lt rgb 'blue' title 'Heat 2d (n = 10000 speedup)', \
+ '14000.txt' using 1:2 with linespoints lw 1 lt rgb 'red' title 'Heat 2d (n = 14000) speedup', \
  'linear.txt' using 1:2 with linespoints lw 1 lt rgb 'black' title 'Linear speedup'

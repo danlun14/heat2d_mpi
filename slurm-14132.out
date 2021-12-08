@@ -1,0 +1,10 @@
+# P    5 ( 2,  1) on cn6: grid ny 5000 nx 2500, total 70.476209, mpi 3.463696 (0.05) = allred 1.350715 (0.39) + halo 2.112981 (0.61)
+# P    7 ( 3,  1) on cn8: grid ny 5000 nx 2500, total 70.476512, mpi 3.904568 (0.06) = allred 3.547035 (0.91) + halo 0.357533 (0.09)
+# P    6 ( 3,  0) on cn7: grid ny 5000 nx 2500, total 70.477012, mpi 3.239255 (0.05) = allred 2.864722 (0.88) + halo 0.374533 (0.12)
+# Heat 2D (mpi): grid: rows 10000, cols 10000, procs 8 (px 4, py 2)
+# P    0 ( 0,  0) on cn1: grid ny 5000 nx 2500, total 70.477780, mpi 2.945986 (0.04) = allred 2.641240 (0.90) + halo 0.304746 (0.10)
+# P    2 ( 1,  0) on cn3: grid ny 5000 nx 2500, total 70.477502, mpi 2.638809 (0.04) = allred 1.313392 (0.50) + halo 1.325417 (0.50)
+# P    3 ( 1,  1) on cn4: grid ny 5000 nx 2500, total 70.477369, mpi 2.628058 (0.04) = allred 0.038762 (0.01) + halo 2.589296 (0.99)
+# P    1 ( 0,  1) on cn2: grid ny 5000 nx 2500, total 70.478617, mpi 2.770790 (0.04) = allred 1.143375 (0.41) + halo 1.627415 (0.59)
+# P    4 ( 2,  0) on cn5: grid ny 5000 nx 2500, total 70.478811, mpi 3.281745 (0.05) = allred 2.954302 (0.90) + halo 0.327443 (0.10)
+# procs 8 : grid 10000 10000 : niters 243 : total time 70.478811 : mpi time 6.136331 : allred 3.547035 : halo 2.589296
